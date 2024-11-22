@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "25392303927",
+    "firebase_url": "https://g05hotrothugomvatlieutaiche-default-rtdb.firebaseio.com",
+    "project_id": "g05hotrothugomvatlieutaiche",
+    "storage_bucket": "g05hotrothugomvatlieutaiche.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25392303927:android:578ed5c41b9e0b110f14b2",
+        "android_client_info": {
+          "package_name": "com.example.g05"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmgwXRSvgXS0ox53G7vwlVDeGAtSidU2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6EFD8"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_search">
+
+            <ImageButton
+                android:id="@+id/imagebuttonBack"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:background="#FFF"
+                app:srcCompat="@drawable/back" />
+
+            <ImageButton
+                android:id="@+id/btnSave"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                app:srcCompat="@drawable/save" />
+        </LinearLayout>
+
+
+
+
+        <ImageView
+            android:id="@+id/img_detail_info"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/view"
+            android:layout_marginTop="40dp"
+
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_Ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handmade Bee - (Thu gom quần áo)"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp" />
+
+            <ImageButton
+                android:id="@+id/imagebuttonAddress"
+                android:layout_width="39dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:background="#D6EFD8"
+                android:layout_marginRight="6dp"
+                app:srcCompat="@drawable/gg_map" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Chi tiết" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/edit_search"
+            android:layout_marginTop="10dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/clothes" />
+
+            <TextView
+                android:id="@+id/text_loaihang"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Quần áo"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <ImageButton
+                android:id="@+id/btnOrder"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+               android:background="#FFF"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/order" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_search"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_contact_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Thông tin về địa điểm"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:text="Điện thoại liên lạc: 0385987109" />
+
+            <TextView
+                android:id="@+id/tv_working_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Ngày làm việc: T2 - T6 " />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Giờ làm việc: 8h - 17h " />
+            <TextView
+                android:id="@+id/text_dia_chi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Giờ làm việc: 8h - 17h " />
+
+            <TextView
+                android:id="@+id/tv_transport_method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Phương thức gửi đồ: Người tự chuyển đồ đến điểm thu gom" />
+
+            <TextView
+                android:id="@+id/tv_payment_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="16dp"
+                android:text="Chính sách thanh toán: Người gửi tự thanh toán chi phí vận chuyển" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sửa"
+                android:backgroundTint="#72BF78"
+                android:textColor="@android:color/white"
+                android:layout_marginEnd="10dp" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xoá"
+                android:backgroundTint="@color/black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
